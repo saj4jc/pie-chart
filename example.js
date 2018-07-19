@@ -16,7 +16,7 @@
     function setupPieChart() {
 
 
-        var dimensions = knuthfisheryates2(['walking', 'programming', 'chess', 'eating', 'sleeping']);
+        var dimensions = knuthfisheryates2(['Artist', 'Producer', 'Music Composer', 'Lyricist', 'Me']);
         var randomProportions = generateRandomProportions(dimensions.length, 0.05);
         var proportions = dimensions.map(function(d,i) { return {
             label: d,
@@ -51,7 +51,7 @@
             context.arc(centerX, centerY, radius, startingAngle, endingAngle, false);
             context.closePath();
 
-            context.fillStyle = '#f5f5f5';
+            context.fillStyle = '#2665da';
             context.fill();
             context.stroke();
             context.restore();
