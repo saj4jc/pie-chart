@@ -540,11 +540,11 @@
         onchange: function(piechart) {},
         radius: 0.9,
             data: [
-        { angle: -2, format: { color: "#2665da", label: 'Walking'}, collapsed: false },
-        { angle: -1, format: { color: "#6dd020", label: 'Programming'}, collapsed: false },
-        { angle: 0, format: { color: "#f9df18", label: 'Chess'}, collapsed: false },
-        { angle: 1, format: { color: "#d42a00", label: 'Eating'}, collapsed: false },
-        { angle: 2, format: { color: "#e96400", label: 'Sleeping'}, collapsed: false }],
+        { angle: -2, format: { color: "#2665da", label: 'Artist'}, collapsed: false },
+        { angle: -1, format: { color: "#6dd020", label: 'Producer'}, collapsed: false },
+        { angle: 0, format: { color: "#f9df18", label: 'Music Composer'}, collapsed: false },
+        { angle: 1, format: { color: "#d42a00", label: 'Lyricist'}, collapsed: false },
+        { angle: 2, format: { color: "#e96400", label: 'Me'}, collapsed: false }],
         collapsing: false,
         minAngle: 0.1,
 
